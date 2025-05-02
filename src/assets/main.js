@@ -10,14 +10,6 @@ const information = null || document.getElementById('information')
    const data = await response.json();
    return data; 
  }
-// (async () => {
-//     try {
-//         const 
-
-//     } catch{
-
-//     }
-// })();
 
 (async () => {
     try {
@@ -32,7 +24,8 @@ const information = null || document.getElementById('information')
         information.innerHTML =showInfo;
 
     } catch(error){
-        console.error(console.error("Hubo un error al llamar a la info:", error))
+        //console.error(console.error("Hubo un error al llamar a la info:", error))
+        alert(error)
 
     }
 })();
@@ -49,7 +42,8 @@ const information = null || document.getElementById('information')
         `;
         profile.innerHTML = viewPhoto
      }catch(error) {
-        console.error("Hubo un error al llamar a la photo:", error);
+        //console.error("Hubo un error al llamar a la photo:", error);
+        alert(error)
      };
 
 })();
@@ -77,10 +71,10 @@ const information = null || document.getElementById('information')
          `;
          content.innerHTML = view;
      } catch (error) {
-         console.error("Hubo un error al llamar a la API:", error);
+         //console.error("Hubo un error al llamar a la API:", error);
+         alert(error)
     }
 })();
-
 
 
 console.log(`hola carambola`)
