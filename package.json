@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/mariajossdeny/Landing-Model/issues"
   },
-  "homepage": "https://github.com/mariajossdeny/Landing-Model",
+  "homepage": "https://github.com/mariajossdeny/Landing-Model/#index.html",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
