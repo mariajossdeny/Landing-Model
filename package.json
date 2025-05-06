@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "deploy": "gh-pages -d src"
-},
+    "deploy": "gh-pages -d src"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mariajossdeny/Landing-Model.git"
@@ -16,8 +16,9 @@
   "bugs": {
     "url": "https://github.com/mariajossdeny/Landing-Model/issues"
   },
-  "homepage": "https://github.com/mariajossdeny/Landing-Model/#index.html",
+  "homepage": "https://mariajossdeny.github.io/Landing-Model",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
 }
+
